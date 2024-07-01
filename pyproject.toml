@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "video-fingerprinting"
+version = "0.1.0"
+description = "A Python project aiming to fingerprint videos regardless of the file's name or encoding."
+authors = ["peppapig450 <nbgenius1@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+opencv-python = "^4.10.0.84"
+numpy = "^2.0.0"
+ImageHash = "^4.3.1"
+scikit-learn = "^1.5.0"
+pillow = "^10.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
